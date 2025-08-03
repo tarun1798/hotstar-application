@@ -23,12 +23,12 @@ jobs:
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: ${{ secrets.AWS_REGION }}
+          aws-region: us-east-1
 
       # Step 4: Authenticate Docker to Amazon ECR
       - name: Log in to Amazon ECR
         run: |
-          aws ecr get-login-password --region ${{ secrets.AWS_REGION }} \
+          aws ecr get-login-password --region aws-region: us-east-1\
           | docker login --username AWS --password-stdin ${{ secrets.ECR_REPO }}
 
       # Step 5: Tag & Push Docker image to Amazon ECR
