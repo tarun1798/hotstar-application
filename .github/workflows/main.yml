@@ -18,14 +18,14 @@ jobs:
       - name: Log in to Docker Hub
         uses: docker/login-action@v2
         with:
-          username: ${{ secrets.DOCKER_USERNAME }}
-          password: ${{ secrets.DOCKER_PASSWORD }}
+          username: tarunb17
+          password: Btharun6178@
 
       # Step 3: Build and Push Docker Image
       - name: Build and Push Docker Image
         run: |
-          docker build -t ${{ secrets.DOCKER_USERNAME }}/hotstar-app:latest .
-          docker push ${{ secrets.DOCKER_USERNAME }}/hotstar-app:latest
+          docker build -t tarunb17/hotstar-app:latest .
+          docker push tarunb17/hotstar-app:latest
 
       # Step 4: Set up kubectl
       - name: Set up kubectl
