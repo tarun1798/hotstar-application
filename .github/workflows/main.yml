@@ -24,6 +24,10 @@ jobs:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
+          
+      - name: Verify AWS identity
+        run: aws sts get-caller-identity
+
 
       # Step 4: Authenticate Docker to Amazon ECR
       - name: Log in to Amazon ECR
