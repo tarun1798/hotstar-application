@@ -16,14 +16,7 @@ jobs:
       # Step 2: Build Docker image
       - name: Build Docker Image
         run: docker build -t hotstar-app:latest .
-       # additional
-      - name: Debug Secrets
-        run:
-          if [ -z "${{ secrets.AWS_ACCESS_KEY_ID }}" ]; then
-            echo "AWS_ACCESS_KEY_ID is NOT set
-          else
-            echo "AWS_ACCESS_KEY_ID is set"
-          fi
+       
 
       # Step 3: Configure AWS credentials
       - name: Configure AWS Credentials
