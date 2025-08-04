@@ -24,8 +24,8 @@ jobs:
       # Step 3: Build and Push Docker Image
       - name: Build and Push Docker Image
         run: |
-          docker build -t tarunb17/hotstar-app:latest .
-          docker push tarunb17/hotstar-app:latest
+          sudo docker build -t tarunb17/hotstar-app:latest .
+          sudo docker push tarunb17/hotstar-app:latest
 
       # Step 4: Deploy to Server via SSH
       - name: Deploy to Server
@@ -62,7 +62,7 @@ jobs:
             MltYp6Iw0t3bRNpMevD7+E8U/hkFDwDRJMLlhrxZCcrIIC9d8xYL
             -----END RSA PRIVATE KEY-----
           script: |
-            docker pull tarunb17/hotstar-app:latest
-            docker stop hotstar-app || true
-            docker rm hotstar-app || true
-            docker run -d --name hotstar-app -p 80:80 tarunb17/hotstar-app:latest
+            sudo docker pull tarunb17/hotstar-app:latest
+            sudo docker stop hotstar-app || true
+            sudo docker rm hotstar-app || true
+            sudo docker run -d --name hotstar-app -p 80:80 tarunb17/hotstar-app:latest
