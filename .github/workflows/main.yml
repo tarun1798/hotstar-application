@@ -65,4 +65,4 @@ jobs:
             sudo docker pull tarunb17/hotstar-app:latest
             sudo docker stop hotstar-app || true
             sudo docker rm hotstar-app || true
-            sudo docker run -d --name hotstar-app -p 80:80 tarunb17/hotstar-app:latest
+            sudo docker run -d --name hotstar-app -p 80:3000 tarunb17/hotstar-app:latest
