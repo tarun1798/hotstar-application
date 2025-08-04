@@ -24,8 +24,8 @@ jobs:
       # Step 3: Build and Push Docker Image
       - name: Build and Push Docker Image
         run: |
-          sudo docker build -t tarunb17/hotstar-app:latest .
-          sudo docker push tarunb17/hotstar-app:latest
+          docker build -t tarunb17/hotstar-app:latest .
+          docker push tarunb17/hotstar-app:latest
 
       # Step 4: Deploy to Server via SSH
       - name: Deploy to Server
