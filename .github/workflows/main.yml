@@ -33,34 +33,34 @@ jobs:
         with:
           host: 3.83.130.129
           username: ubuntu
-          key: 
-              -----BEGIN RSA PRIVATE KEY-----
-              MIIEowIBAAKCAQEAtg2eQbijuVDFyQZj46f1rgvnn/vgNmKKp7pD/b67KsB7tU5i
-              xGNTXetzNEge828rfr2D7sAhPlSke8wCChO8yEhQ6xskfrc9wn2uiKD08uG5jEH7
-              gVgRT7GvfMBx/52fnCno0Ttwz+nQCRQmIx5sUQBasqTmiX9ZvXJ5cHDnMY+OSoFn
-              ZPP9YYcr9xHyFL/cMFzT23jSGd+G+36t/7fphJqlPTA8xfq6d3ovYDsd0zZk+SRq
-              jOw5lEgzNzMizqbESkB6V3fP3ln2VZtRP9yJaL/DVvHfpVa7pWDKihP+jJVPSHKa
-              kzEr/ZqB4pQDFrxPQFbrEogtgUypikUB2YyNDQIDAQABAoIBACzGxrDVb/dpZWwf
-              FTxuGCAZr3uK4MefjwjX6FclrTVDqGmcgPBamauU+H3YazxmkGUYybVULhj9ioMk
-              VzARULJWDwj0YRKFkTwf22ihZf3DBPb5V5mlhoR6aHYfgypio1oueKPVodaRZGiH
-              OyYSGoQFuUkNA+K3nuPYnwPH0SVABl80gI7oKYV+WPSkFcLPp5Kbmwj9MMXoi4M1
-              27bv2G7F0JuMGQNmJCJNvWtFqPpJoqAtaTlUGMIYX/0gGhVuVlhytTqMtyNBemdN
-              rtkk3b7YY162KhyvHfuN4ZF6mNrMzgc90sITdKZ7Dd87elbNggxBUJ0Vu6uXiAFs
-              IHMxXCECgYEA48H+v/R9QDC6AUq44U9KyfNyq+Ck6EmymofMyaEmx8dcaK+sLEcC
-              ohSoFhyOlapu+2E/aWcleom1JoCLNEc3zNjhRAHJCq07/g8YJJSwlGPkHz2/mCLG
-              uPbwgmB+UzgbPgx+RZMASRTQfmLp4kekVS9kEoUrlpaLy1vN/MyI6tUCgYEAzKDD
-              lTtwTNDggPGbrwEOLq2gIut/iWSJ+AihFxlwqdI8KnUkUc9snLTumF3o2OdR63JR
-              Q87Vd6Yy5kFqHbzGJVApfS3+qT1+wmhW5LXpkpZx7YTNs8NnlJv8a/BHu0jztZhT
-              ZqWpLhhcK0MqOOnHE6/75pHNl80dVq2U1QDJxVkCgYEAkrxWk3dCBswd2l041bhP
-              N+NH2uKFfD6W+iZJ0xGnOYkAyVV8+J3bXW8vh+doGZbPn9dcklzo8ZStCBxDEzBb
-              C/gi0bzQuLc5coppBJBjX4cn3tTajnrBS0OVWnouiREZxBUqeUqnIW5ukS7K/oUn
-              o9Y/hAsWNRPTBvajtJ5WC+0CgYBdl349SFVh3PuCHn+9eHcbJHCk6B+KIMD2AERl
-              w04DblP0e2WkQYIE3sBuUi2I36xZSw0ePYDnW83WAL9fYJMkR9jiF2Jt1+GdW4m6
-              y/VMBaGQKHjJKqu6jenTGLBGWeSV/1jODyElIyEs7GhoZYyXVZuaZr+pGbi8h2IW
-              Vmjy6QKBgCdJAYTrizB1nS/nOX7rzGjE2cCX50MQ1kQwjS97ZXZax0rBZccHT7up
-              NNj65hRKif+/Viyuon3crgAzBtMCpgch5siaVhL3yUDUPcTRlCjiGQkqP7Nl4Xi/
-              MltYp6Iw0t3bRNpMevD7+E8U/hkFDwDRJMLlhrxZCcrIIC9d8xYL
-              -----END RSA PRIVATE KEY-----
+          key: |
+            -----BEGIN RSA PRIVATE KEY-----
+            MIIEowIBAAKCAQEAtg2eQbijuVDFyQZj46f1rgvnn/vgNmKKp7pD/b67KsB7tU5i
+            xGNTXetzNEge828rfr2D7sAhPlSke8wCChO8yEhQ6xskfrc9wn2uiKD08uG5jEH7
+            gVgRT7GvfMBx/52fnCno0Ttwz+nQCRQmIx5sUQBasqTmiX9ZvXJ5cHDnMY+OSoFn
+            ZPP9YYcr9xHyFL/cMFzT23jSGd+G+36t/7fphJqlPTA8xfq6d3ovYDsd0zZk+SRq
+            jOw5lEgzNzMizqbESkB6V3fP3ln2VZtRP9yJaL/DVvHfpVa7pWDKihP+jJVPSHKa
+            kzEr/ZqB4pQDFrxPQFbrEogtgUypikUB2YyNDQIDAQABAoIBACzGxrDVb/dpZWwf
+            FTxuGCAZr3uK4MefjwjX6FclrTVDqGmcgPBamauU+H3YazxmkGUYybVULhj9ioMk
+            VzARULJWDwj0YRKFkTwf22ihZf3DBPb5V5mlhoR6aHYfgypio1oueKPVodaRZGiH
+            OyYSGoQFuUkNA+K3nuPYnwPH0SVABl80gI7oKYV+WPSkFcLPp5Kbmwj9MMXoi4M1
+            27bv2G7F0JuMGQNmJCJNvWtFqPpJoqAtaTlUGMIYX/0gGhVuVlhytTqMtyNBemdN
+            rtkk3b7YY162KhyvHfuN4ZF6mNrMzgc90sITdKZ7Dd87elbNggxBUJ0Vu6uXiAFs
+            IHMxXCECgYEA48H+v/R9QDC6AUq44U9KyfNyq+Ck6EmymofMyaEmx8dcaK+sLEcC
+            ohSoFhyOlapu+2E/aWcleom1JoCLNEc3zNjhRAHJCq07/g8YJJSwlGPkHz2/mCLG
+            uPbwgmB+UzgbPgx+RZMASRTQfmLp4kekVS9kEoUrlpaLy1vN/MyI6tUCgYEAzKDD
+            lTtwTNDggPGbrwEOLq2gIut/iWSJ+AihFxlwqdI8KnUkUc9snLTumF3o2OdR63JR
+            Q87Vd6Yy5kFqHbzGJVApfS3+qT1+wmhW5LXpkpZx7YTNs8NnlJv8a/BHu0jztZhT
+            ZqWpLhhcK0MqOOnHE6/75pHNl80dVq2U1QDJxVkCgYEAkrxWk3dCBswd2l041bhP
+            N+NH2uKFfD6W+iZJ0xGnOYkAyVV8+J3bXW8vh+doGZbPn9dcklzo8ZStCBxDEzBb
+            C/gi0bzQuLc5coppBJBjX4cn3tTajnrBS0OVWnouiREZxBUqeUqnIW5ukS7K/oUn
+            o9Y/hAsWNRPTBvajtJ5WC+0CgYBdl349SFVh3PuCHn+9eHcbJHCk6B+KIMD2AERl
+            w04DblP0e2WkQYIE3sBuUi2I36xZSw0ePYDnW83WAL9fYJMkR9jiF2Jt1+GdW4m6
+            y/VMBaGQKHjJKqu6jenTGLBGWeSV/1jODyElIyEs7GhoZYyXVZuaZr+pGbi8h2IW
+            Vmjy6QKBgCdJAYTrizB1nS/nOX7rzGjE2cCX50MQ1kQwjS97ZXZax0rBZccHT7up
+            NNj65hRKif+/Viyuon3crgAzBtMCpgch5siaVhL3yUDUPcTRlCjiGQkqP7Nl4Xi/
+            MltYp6Iw0t3bRNpMevD7+E8U/hkFDwDRJMLlhrxZCcrIIC9d8xYL
+            -----END RSA PRIVATE KEY-----
           script: |
             docker pull tarunb17/hotstar-app:latest
             docker stop hotstar-app || true
